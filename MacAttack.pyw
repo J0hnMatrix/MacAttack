@@ -2530,6 +2530,8 @@ class MacAttack(QMainWindow):
 
         self.prefix_dropdown = QComboBox()
         prefixes = sorted([
+            '00:1E:B8:',
+            '00:00:00:',
             'D4:CF:F9:',
             '33:44:CF:',
             '10:27:BE:',
