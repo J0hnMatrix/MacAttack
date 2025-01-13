@@ -2529,23 +2529,23 @@ class MacAttack(QMainWindow):
         dropdown_label_layout.addWidget(self.prefix_label)
 
         self.prefix_dropdown = QComboBox()
-        prefixes = sorted([
-            '00:1E:B8:',
+        prefixes = ([
+            '00:1A:79: (default)',
             '00:00:00:',
-            'D4:CF:F9:',
-            '33:44:CF:',
-            '10:27:BE:',
-            'A0:BB:3E:',
-            '55:93:EA:',
-            '04:D6:AA:',
-            '11:33:01:',
+            '00:1B:79:',
             '00:1C:19:',
+            '00:1E:B8:',
+            '00:2A:79:',
+            '00:A1:79:',
+            '04:D6:AA:',
+            '10:27:BE:',
+            '11:33:01:',
             '1A:00:6A:',
             '1A:00:FB:',
-            '00:A1:79:',
-            '00:1B:79:',
-            '00:2A:79:',
-            '00:1A:79: (default)'
+            '33:44:CF:',
+            '55:93:EA:',
+            'A0:BB:3E:',
+            'D4:CF:F9:'
         ])
         self.prefix_dropdown.addItems(prefixes)
         dropdown_label_layout.addWidget(self.prefix_dropdown)
